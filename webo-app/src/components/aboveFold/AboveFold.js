@@ -1,7 +1,15 @@
 import React from 'react'
-import './AboveFold.css';
-import AboveFoldData from './AboveFoldData';
-import hand from './hand.png';
+import './AboveFold.css'
+import AboveFoldData from './AboveFoldData'
+import hand from './hand.png'
+import play from './play.png'
+import open from './open.png'
+import oracle from './oracle.png'
+import morpheus from './morpheus.png'
+import samsung from './samsung.png'
+import monday from './moday.png'
+import segment from './segment.png'
+import protonet from './protonet.png'
 
 
 const AboveFold = () => {
@@ -33,11 +41,29 @@ const AboveFold = () => {
                             <div className='headingBody'>
                                 <h2>{data.heading}</h2>
                                 <p>{data.text}</p>
-                                <button className='getStarted'>Get Started</button>
-                                
-                                    <div className='img1'><img src={hand} alt='This is first hand.' height={500} width={350} />
+                                <div className='buttons'>
+                                    <button className='getStarted' height={50}>Get Started</button>
+                                    <div className='play'>
+                                        <img src={play} className='playButton' alt='playButton' width={40} height={40} />
+                                        {data.play}
                                     </div>
+                                    <div className='img1'>
+                                        <img src={hand} alt='This is first hand.' height={800} width={350} />
+                                    </div>
+                                </div>
 
+                            </div>
+                            <div className='companies'>
+                                <div className='companyText'>{data.companyTag}</div>
+                                <div className='companyLogos'>
+                                    <li><img src={open} alt='open' height={20} width={120} /></li>
+                                    <li><img src={oracle} alt='oracle' height={20} width={120} /></li>
+                                    <li><img src={morpheus} alt='morpheus' height={20} width={120} /></li>
+                                    <li><img src={samsung} alt='samsung' height={20} width={120} /></li>
+                                    <li><img src={monday} alt='monday' height={20} width={120} /></li>
+                                    <li><img src={segment} alt='segment' height={20} width={120} /></li>
+                                    <li><img src={protonet} alt='protonet' height={20} width={120} /></li>
+                                </div>
                             </div>
                         </div>
                     )

@@ -75,8 +75,32 @@ p{
     border-radius: 25px;
 }
 .img1{
-    padding-left: 780px;
-    margin-top: -200px;
+    padding-left: 500px;
+    margin-top: -500px;
     top: 146px;
+}
+.play{
     display: inline-flex;
+    padding-left: 25px;
+    font-size: 12px;
+    color: #3734A9;
+}
+.playButton{
+    margin-right: 10px;
+}
+.buttons{
+    display: inline-flex;
+}
+.companies{
+    background-color: rgb(255, 255, 255);
+    margin-top: -4px;
+    text-align: center;
+    padding-top: 25px;
+}
+.companyText{
+    padding-top: 18px;
+}
+.companyLogos{
+    justify-content: space-around;
+    padding: 18px;
 }
