@@ -1,0 +1,11 @@
+.App{
+  font-family: sans-serif;
+}
+
+.aboveFold{
+  width: 1440px;
+  height: 934px;
+  position: absolute;
+  top: 0px;
+  background-color: linear-gradient(#62BADA, #C9E7F2);
+}
