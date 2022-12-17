@@ -1,8 +1,9 @@
 .sectionHeading{
-    margin-left: 119px;
-    margin-top: 120px;
+    padding-left: 119px;
+    padding-top: 120px;
     display: flex;
     justify-content: space-between;
+    background-color: #fafbff;
 }
 .Heading{
     font-size: 36px;

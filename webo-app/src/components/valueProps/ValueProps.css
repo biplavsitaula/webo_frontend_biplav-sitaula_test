@@ -1,0 +1,31 @@
+.valueProps{
+    margin-top: 120px;
+    margin-left: 119px;
+    width: 360px;
+    border-radius: 10px;
+    outline: 2px solid #dbe4e9;
+    display: inline-block;
+}
+.number{
+    white-space: inherit;
+    padding: 10px;
+    font-weight: 600;
+}
+.heading{
+    padding-top: 20px;
+    width: 180px;
+    padding-left: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.text{
+    width: 250px;
+    padding-left: 60px;
+    font-size: 12px;
+    padding-top: 12px;
+    text-align: center;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    color: #64607D;
+}
