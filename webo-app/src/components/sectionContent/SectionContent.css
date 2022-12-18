@@ -1,0 +1,85 @@
+/*Body sytle*/
+.sectionBody{
+    padding-top: 50px;
+    padding-left: 119px;  
+    background-color: #fafbff;
+    display: inline-flex;
+}
+
+/*left section style*/
+
+.leftSecCont{
+    border: none;
+    background-color: #d6e2f9;
+    width: 450px;
+    border-radius: 10px; 
+    padding-bottom: 15px;
+    padding-top: 10px;
+    height: 300px;
+}
+.sectionContent{
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 280px;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+.sectionContent:nth-child(2){
+    margin-left: 200px;
+}
+.sectionContent:nth-child(3){
+    margin-left: 150px;
+}
+.secData{
+    margin-left: -100px;
+}
+.money{
+    margin-top: 5px;
+    font-weight: 600;
+    color: #3734A9;
+    margin-left: 119px;
+    padding-left: 5px;
+    background-color: rgba(55, 52, 169, 0.4);
+    width: 75px;
+    border-radius: 20px;
+}
+.secImg{
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+/*right side style*/
+
+.rightSecCont{
+    padding-left: 180px;
+}
+.tag{
+    color: #3734a9;
+    font-size: 14px;
+}
+.rSecHeading{
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-right: 250px;
+}
+.rText{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 420px;
+    color: #505887;
+    font-size: 18px;
+    border-bottom: 1px solid #505887;
+}
+.points{
+    padding-top: 30px;
+    padding-left: 10px;
+    color: #505887;
+}
+.point1, .point2, .point3{
+    padding: 12px;
+}
+

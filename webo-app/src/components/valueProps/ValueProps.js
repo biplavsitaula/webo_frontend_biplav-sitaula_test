@@ -4,7 +4,7 @@ import ValuePropsData from './ValuePropsData'
 
 const ValueProps = () => {
     return (
-        <div>
+        <div className='valueBody'>
             {
                 ValuePropsData.map((data, index) => (
                     <div className='valueProps'>
