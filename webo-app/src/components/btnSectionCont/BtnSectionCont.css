@@ -1,0 +1,22 @@
+.BtnSectionContBody {
+    background-color: #fafbff;
+    padding-left: 119px;
+}
+.lBtnSec{
+    
+}
+
+.btnSecHead {
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-right: 250px;
+    width: 450px;
+}
+
+.subHead{
+    padding-top: 18px;
+    color: #505887;
+    width: 350px;
+    line-height: 20px;
+}
